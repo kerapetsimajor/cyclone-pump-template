@@ -2589,7 +2589,7 @@ blockquote:before {
 .extra-nav .site-button-link {
 	font-size: 25px;
     line-height: 25px;
-    color: #020d26;
+    color: #dc323c;
     cursor: pointer;
 }
 .extra-nav .extra-cell {
@@ -2686,6 +2686,23 @@ blockquote:before {
 }
 .dlab-topbar-left ul li a{
 	position:relative;
+	font-weight: 700;
+}
+.dlab-topbar-left ul li i.la-phone,
+.dlab-topbar-left ul li i.la-envelope {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #dc323c;
+    border: 2px solid #dc323c;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+    line-height: 1;
 }
 .topbar-social li a{
 	padding: 0 6px; 
@@ -2940,7 +2957,7 @@ blockquote:before {
 .logo-footer img {
     height: auto;
 	width: 100%;
-	max-width: 180px;
+	max-width: 150px;
 }
 .logo-header span,
 .logo-footer span {
@@ -3409,7 +3426,7 @@ blockquote:before {
 	.header-nav .nav > li > a{
 		padding: 22px 10px 22px 10px;
         font-size: 13px;
-		font-weight: 500;
+		font-weight: 800;
 	}	
 	.extra-nav .site-button-link {
 		font-size: 22px;

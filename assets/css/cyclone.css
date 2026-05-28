@@ -117,7 +117,7 @@
 /* ── CTA button (red) ── */
 .cy-btn {
   position:relative; overflow:hidden; display:inline-block;
-  font-family:var(--font-body); font-weight:600; font-size:14px;
+  font-family:var(--font-body); font-weight:800; font-size:16px;
   padding:5px 5px 5px 22px; border-radius:50px; white-space:nowrap;
   color:var(--cy-white); text-decoration:none;
   background:var(--cy-accent);
@@ -171,13 +171,13 @@
 .cy-prev,.cy-next {
   position:absolute; width:56px; height:56px; cursor:pointer;
   pointer-events:all; color:var(--cy-white);
-  background:rgba(30,120,180,.25); backdrop-filter:blur(6px);
-  border:1px solid rgba(30,120,180,.4);
+  background:rgba(220,50,60,.25); backdrop-filter:blur(6px);
+  border:1px solid rgba(220,50,60,.4);
   display:flex; align-items:center; justify-content:center;
   font-size:18px; transition:all .3s ease;
 }
 .cy-prev { left:0; } .cy-next { right:0; }
-.cy-prev:hover,.cy-next:hover { background:var(--cy-primary); border-color:var(--cy-primary); }
+.cy-prev:hover,.cy-next:hover { background:var(--cy-accent); border-color:var(--cy-accent); }
 
 /* ── Pagination ── */
 .cy-pagination {
@@ -199,6 +199,9 @@
 .cy-pagination .swiper-pagination-bullet-active::after { width:100%; }
 
 /* ── Responsive ── */
+@media(min-width:992px) {
+  .cyclone-slider__inner { max-width:65%; }
+}
 @media(max-width:991px) {
   .cyclone-slider .swiper-slide { padding:190px 0 110px; }
   .cyclone-slider__heading { font-size:42px; }
