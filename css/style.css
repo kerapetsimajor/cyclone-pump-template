@@ -2589,7 +2589,7 @@ blockquote:before {
 .extra-nav .site-button-link {
 	font-size: 25px;
     line-height: 25px;
-    color: #dc323c;
+    color: #020d26;
     cursor: pointer;
 }
 .extra-nav .extra-cell {
@@ -2635,10 +2635,10 @@ blockquote:before {
 15. PAGE TOP BAR (left & right content)
 ---------------------------------------------------------------*/
 .top-bar {
-    background-color: #1e78b4;
+    background-color: #ffffff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    color: #fff;
-    padding: 10px 0;
+    color: #444444;
+    padding:0;
 }
 .dlab-topbar-left {
     float: left;
@@ -2682,27 +2682,10 @@ blockquote:before {
 }
 .dlab-topbar-left ul li a,
 .dlab-topbar-right ul li a{
-	color:#fff;
+	color:#444444;
 }
 .dlab-topbar-left ul li a{
 	position:relative;
-	font-weight: 700;
-}
-.dlab-topbar-left ul li i.la-phone,
-.dlab-topbar-left ul li i.la-envelope {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    font-weight: 700;
-    font-size: 18px;
-    background-color: #dc323c;
-    border: 2px solid #dc323c;
-    border-radius: 50%;
-    margin-right: 8px;
-    vertical-align: middle;
-    line-height: 1;
 }
 .topbar-social li a{
 	padding: 0 6px; 
@@ -2957,7 +2940,7 @@ blockquote:before {
 .logo-footer img {
     height: auto;
 	width: 100%;
-	max-width: 150px;
+	max-width: 180px;
 }
 .logo-header span,
 .logo-footer span {
@@ -3109,7 +3092,9 @@ blockquote:before {
     cursor: pointer;
 	font-weight: 600;
 	display: inline-block;
-	position: relative;	
+	position: relative;
+    border:1px solid rgba(0,0,0,0.10);
+    border-width: 0 0 0 1px;	
 }
 .header-nav .nav > li > a.nav-link{
 	padding-left:12px;
@@ -3426,7 +3411,7 @@ blockquote:before {
 	.header-nav .nav > li > a{
 		padding: 22px 10px 22px 10px;
         font-size: 13px;
-		font-weight: 800;
+		font-weight: 500;
 	}	
 	.extra-nav .site-button-link {
 		font-size: 22px;
@@ -9183,7 +9168,7 @@ ul[class*="list-"]{
 /*Client carousel */
 
 .ow-client-logo {
-    background-color: #e8f4fc;
+    background-color: #fff;
     display: table;
     width: 100%;
     border-radius: 6px;
@@ -13152,7 +13137,8 @@ ol.commentlist li .star-rating {
 	padding-top:0;
 }
 .content-inner{
-	padding:40px 10px;
+	padding-top:80px;
+	padding-bottom:50px;
 }
 .content-inner-1{
 	padding-top:80px;

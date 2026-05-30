@@ -1,0 +1,52 @@
+/*=====================================================================
+  CYCLONE INDUSTRIES — BRAND SKIN
+  Drop-in replacement for skin-1.css. Controls brand colours site-wide.
+  Official palette: primary #1e78b4 · dark #0d4a73 · accent #dc323c
+=====================================================================*/
+:root {
+	/* Template-driven variables (the engine reads these) */
+	--color-primary:  #1e78b4;   /* Cyclone blue (was orange) */
+	--color-secondry: #1a2533;   /* deep navy ink */
+	--color-hover:    #0d4a73;   /* darker blue on hover */
+	--rgba-primary-1: rgba(30,120,180,0.1);
+	--rgba-primary-2: rgba(30,120,180,0.2);
+	--rgba-primary-3: rgba(30,120,180,0.3);
+	--rgba-primary-4: rgba(30,120,180,0.4);
+	--rgba-primary-5: rgba(30,120,180,0.5);
+	--rgba-primary-6: rgba(30,120,180,0.6);
+	--rgba-primary-7: rgba(30,120,180,0.7);
+	--rgba-primary-8: rgba(30,120,180,0.8);
+	--rgba-primary-9: rgba(30,120,180,0.9);
+	--text-sec: #6b7a8d;
+
+	/* Cyclone extended tokens (used by our custom homepage CSS) */
+	--cy-primary:#1e78b4;
+	--cy-primary-dark:#0d4a73;
+	--cy-accent:#dc323c;
+	--cy-accent-hover:#b82830;
+	--cy-fg:#1a2533;
+	--cy-muted:#f4f8fb;
+	--cy-muted-fg:#6b7a8d;
+	--cy-border:#dde6ef;
+	--cy-soft-blue:#e8f4fc;
+}
+
+/* ---- Map template's primary helpers onto Cyclone blue ---- */
+.text-primary{color:var(--cy-primary)!important;}
+.bg-primary{background-color:var(--cy-primary)!important;}
+.site-button,
+.site-button.outline:hover,
+.bg-primary{background-color:var(--cy-primary);}
+.site-button{border-color:var(--cy-primary);}
+.site-button:hover,
+.site-button:focus,
+.site-button:active{background-color:var(--cy-primary-dark);border-color:var(--cy-primary-dark);}
+a{color:var(--cy-primary);}
+a:hover,a:active,a:focus{color:var(--cy-primary-dark);}
+.dlab-separator.bg-primary{background-color:var(--cy-accent)!important;}
+
+/* Accent (red) helper for CTAs and highlights */
+.site-button.button-red,
+.bg-accent{background-color:var(--cy-accent)!important;border-color:var(--cy-accent)!important;color:#fff!important;}
+.site-button.button-red:hover{background-color:var(--cy-accent-hover)!important;border-color:var(--cy-accent-hover)!important;}
+.text-accent{color:var(--cy-accent)!important;}

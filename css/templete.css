@@ -25,7 +25,6 @@
     background: #FFFFFF;
     width: 100%;
     position: relative;
-	padding: 20px 0;
 }
 .mega-menu a span.badge {
     background: #ff0505;
@@ -2619,7 +2618,7 @@ HOME 5 Box Header
     height: 100%;
     right: 0;
     top: 0;
-    background-color: #0d4a73;
+    background-color: #f8991d;
     z-index: -1;
 }
 .exhibition-carousel {

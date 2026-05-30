@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Cyclone Industries — supply, repair and engineering of industrial pumps, valves, sealing systems and ARC coatings across mining, food, water and chemical sectors in South Africa.">
+<meta name="format-detection" content="telephone=no">
+
+<!-- FAVICON -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+<title>Cyclone Industries — Pumps, Valves &amp; Sealing Systems</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- TEMPLATE STYLESHEETS (real template assets) -->
+<link rel="stylesheet" type="text/css" href="css/plugins.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-cyclone.css">
+<link rel="stylesheet" type="text/css" href="css/templete.css">
+
+<!-- Swiper (bundled in template plugins) for the hero -->
+<link rel="stylesheet" type="text/css" href="plugins/swiper/swiper-bundle.min.css">
+
+<!-- Google Fonts -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Alexandria:wght@300;400;500;600;700;800;900&display=swap');
+</style>
+
+
+<!-- Cyclone homepage styles (external, reusable) -->
+<link rel="stylesheet" type="text/css" href="css/cyclone-home.css">
+</head>
+<body id="bg">
+<div class="page-wraper">
+<div id="loading-area"></div>
+
+<!-- ============================================================
+     HEADER  (template .site-header structure → inherits sticky JS)
+============================================================ -->
+<header class="site-header mo-left header">
+	<!-- Top bar -->
+	<div class="top-bar">
+		<div class="container">
+			<div class="row d-flex justify-content-between align-items-center">
+				<div class="dlab-topbar-left">
+					<ul class="cy-topbar-info">
+						<li><i class="fas fa-envelope"></i> <a href="mailto:reception@cyclonesa.co.za">reception@cyclonesa.co.za</a></li>
+						<li><i class="fas fa-phone-alt"></i> <a href="tel:+27118215900">+27 11 821 5900</a></li>
+						<li><i class="fas fa-map-marker-alt"></i> Cyclone Industries, South Africa</li>
+					</ul>
+				</div>
+				<div class="dlab-topbar-right">
+					<div class="cy-topbar-social">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- main header -->
+	<div class="sticky-header main-bar-wraper navbar-expand-lg">
+		<div class="main-bar clearfix">
+			<div class="container clearfix">
+				<!-- logo -->
+				<div class="logo-header mostion logo-dark">
+					<a href="cyclone-home.html" class="cy-logo">
+						<img src="img/CycloneIndustriesLogo.png" alt="Cyclone Industries" class="cy-logo__img">
+					</a>
+				</div>
+				<!-- nav toggle -->
+				<button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span><span></span><span></span>
+				</button>
+				<!-- extra nav -->
+				<div class="extra-nav">
+					<div class="extra-cell">
+						<a href="contact-1.html" class="cy-btn cy-btn--red" style="padding:11px 22px;">Contact Us <i class="fas fa-arrow-right"></i></a>
+					</div>
+					<div class="extra-cell">
+						<button id="quik-search-btn" type="button" class="site-button-link"><i class="la la-search"></i></button>
+					</div>
+				</div>
+				<!-- quick search -->
+				<div class="dlab-quik-search">
+					<form action="#">
+						<input name="search" value="" type="text" class="form-control" placeholder="Search products, brands, services…">
+						<span id="quik-search-remove"><i class="ti-close"></i></span>
+					</form>
+				</div>
+				<!-- main nav -->
+				<div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+					<div class="logo-header d-md-block d-lg-none">
+						<a href="cyclone-home.html" class="cy-logo">
+							<img src="images/cyclone-logo.png" alt="Cyclone Industries" class="cy-logo__img">
+						</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li class="active has-mega-menu">
+							<a href="javascript:;">Products<i class="fas fa-chevron-down"></i></a>
+							<ul class="mega-menu cy-mega">
+								<li style="width:100%;padding:0;">
+									<div class="cy-mega-grid">
+										<div class="cy-mega-col">
+											<h6>Positive Displacement Pumps</h6>
+											<ul>
+												<li><a href="#">PC Pumps</a></li>
+												<li><a href="#">Rotary Screw Pumps</a></li>
+												<li><a href="#">Gear Pumps</a></li>
+												<li><a href="#">Rotary Lobe Pumps</a></li>
+												<li><a href="#">Dosing Pumps</a></li>
+												<li><a href="#">AODD Pumps</a></li>
+											</ul>
+										</div>
+										<div class="cy-mega-col">
+											<h6>Centrifugal Pumps</h6>
+											<ul>
+												<li><a href="#">End-Suction DIN / EN733</a></li>
+												<li><a href="#">ANSI B73.1 Process Pumps</a></li>
+												<li><a href="#">Split Casing Multi-Stage</a></li>
+												<li><a href="#">Vertical Multistage (VMS)</a></li>
+												<li><a href="#">Mining Slurry Pumps</a></li>
+												<li><a href="#">Hygienic Food Pumps (CIP)</a></li>
+											</ul>
+										</div>
+										<div class="cy-mega-col">
+											<h6>Valves &amp; Sealing</h6>
+											<ul>
+												<li><a href="#">Knife Gate Valves</a></li>
+												<li><a href="#">Butterfly &amp; Ball Valves</a></li>
+												<li><a href="#">Polyline Slurry Valves</a></li>
+												<li><a href="#">Chesterton Mechanical Seals</a></li>
+												<li><a href="#">ARC Composite Coatings</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;">Services<i class="fas fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="services-1.html">Sales</a></li>
+								<li><a href="services-2.html">Repairs</a></li>
+								<li><a href="services-materials-engineering.html">CNC Manufacturing &amp; Engineering</a></li>
+							</ul>
+						</li>
+						<li><a href="about-1.html">Our Story</a></li>
+						<li><a href="services-1.html">Markets We Serve</a></li>
+						<li>
+							<a href="javascript:;">Our Brands<i class="fas fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="#">KRAL</a></li>
+								<li><a href="#">Bowie</a></li>
+								<li><a href="#">Orbit Viga</a></li>
+								<li><a href="#">Mono NOV</a></li>
+								<li><a href="#">Chesterton</a></li>
+								<li><a href="#">EMEC</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Downloads</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- header END -->
+
+<!-- Content -->
+<div class="page-content bg-white">
+
+	<!-- ============================================================
+	     HERO SLIDER
+	============================================================ -->
+	<section class="cy-hero">
+		<div class="swiper cyHeroSwiper">
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+					<div class="cy-hero__bg" style="background-image:url(img/hero/1.jpg);background-color:#0d1b2e;"></div>
+					<div class="cy-hero__grid"></div>
+					<div class="cy-hero__blob cy-hero__blob--a"></div>
+					<div class="cy-hero__blob cy-hero__blob--b"></div>
+					<div class="cy-hero__wm">PUMPS</div>
+					<div class="container">
+						<div class="cy-hero__content">
+							<div class="cy-hero__tag"><i class="fas fa-bolt"></i> Trusted Since 1998</div>
+							<h1 class="cy-hero__title">Pump &amp; Valve <span>Solutions</span><br>For <em>Industrial</em> Excellence</h1>
+							<p class="cy-hero__text">World-class pumps, valves, sealing systems and ARC coatings — engineered for performance and backed by expert local support across South Africa.</p>
+							<div class="cy-hero__actions">
+								<a href="#" class="cy-btn cy-btn--red">Explore Products <i class="fas fa-arrow-right"></i></a>
+								<a href="https://www.youtube.com/watch?v=_FRZVScwggM" class="cy-hero__play popup-youtube"><span class="cy-hero__play-ic"><i class="fas fa-play"></i></span> Watch Overview</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="cy-hero__bg" style="background-image:url(img/hero/2.jpg);background-color:#0d2a40;"></div>
+					<div class="cy-hero__grid"></div>
+					<div class="cy-hero__blob cy-hero__blob--a"></div>
+					<div class="cy-hero__wm">ENGINEER</div>
+					<div class="container">
+						<div class="cy-hero__content">
+							<div class="cy-hero__tag"><i class="fas fa-cogs"></i> Precision · Strength · Scale</div>
+							<h1 class="cy-hero__title">CNC <span>Manufacturing</span><br>&amp; <em>Engineering</em> Services</h1>
+							<p class="cy-hero__text">From custom-machined components to full-scale repair and refurbishment — our engineering team delivers on every specification, every time.</p>
+							<div class="cy-hero__actions">
+								<a href="#" class="cy-btn cy-btn--red">Our Services <i class="fas fa-arrow-right"></i></a>
+								<a href="https://www.youtube.com/watch?v=_FRZVScwggM" class="cy-hero__play popup-youtube"><span class="cy-hero__play-ic"><i class="fas fa-play"></i></span> See Our Workshop</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="cy-hero__bg" style="background-image:url(img/hero/3.jpg);background-color:#0a1a2a;"></div>
+					<div class="cy-hero__grid"></div>
+					<div class="cy-hero__blob cy-hero__blob--b"></div>
+					<div class="cy-hero__wm">BRANDS</div>
+					<div class="container">
+						<div class="cy-hero__content">
+							<div class="cy-hero__tag"><i class="fas fa-award"></i> Mining · Food · Water · Chemical</div>
+							<h1 class="cy-hero__title">Serving <span>Every Market</span><br>With <em>Proven</em> Brands</h1>
+							<p class="cy-hero__text">KRAL, Bowie, Orbit Viga, Mono NOV, Chesterton and EMEC — industry-leading brands, supported by genuine parts and certified technicians.</p>
+							<div class="cy-hero__actions">
+								<a href="#" class="cy-btn cy-btn--red">Our Brands <i class="fas fa-arrow-right"></i></a>
+								<a href="https://www.youtube.com/watch?v=_FRZVScwggM" class="cy-hero__play popup-youtube"><span class="cy-hero__play-ic"><i class="fas fa-play"></i></span> Brand Catalogue</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="cy-hero__pag"></div>
+		</div>
+		<div class="cy-hero__nav">
+			<div class="cyHeroPrev"><i class="fas fa-arrow-up"></i></div>
+			<div class="cyHeroNext"><i class="fas fa-arrow-down"></i></div>
+		</div>
+	</section>
+
+	<!-- ============================================================
+	     FEATURE STRIP
+	============================================================ -->
+	<div class="container">
+		<div class="cy-strip cy-reveal">
+			<div class="cy-strip__grid">
+				<div class="cy-strip__item">
+					<div class="cy-strip__ic"><i class="flaticon-gear"></i></div>
+					<div><h4>Certified Quality</h4><p>ISO-aligned processes &amp; genuine OEM parts.</p></div>
+				</div>
+				<div class="cy-strip__item">
+					<div class="cy-strip__ic"><i class="flaticon-engineer"></i></div>
+					<div><h4>Expert Support</h4><p>Local technical team, fast response times.</p></div>
+				</div>
+				<div class="cy-strip__item">
+					<div class="cy-strip__ic"><i class="flaticon-repair-tools"></i></div>
+					<div><h4>Repairs &amp; Service</h4><p>In-house workshop &amp; field servicing.</p></div>
+				</div>
+				<div class="cy-strip__item">
+					<div class="cy-strip__ic"><i class="flaticon-truck"></i></div>
+					<div><h4>Reliable Supply</h4><p>Stocked range, nationwide delivery.</p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ============================================================
+	     ABOUT
+	============================================================ -->
+	<section class="cy-about">
+		<div class="container">
+			<div class="cy-about__grid">
+				<div class="cy-about__visual cy-reveal">
+					<div class="cy-about__shape"></div>
+					<div class="cy-about__img"><i class="flaticon-factory-1"></i></div>
+					<div class="cy-about__exp"><b>25+</b><span>Years of Experience</span></div>
+				</div>
+				<div class="cy-about__content cy-reveal">
+					<div class="cy-eyebrow">About Cyclone Industries</div>
+					<h2 class="cy-sec-title">A Company Built on <span>Engineering Excellence</span></h2>
+					<p class="cy-sec-intro">For over two decades, Cyclone Industries has supplied and serviced the pumps, valves and sealing systems that keep South Africa's most demanding operations running — from deep-level mining to food-grade processing.</p>
+					<div class="cy-about__list">
+						<div class="cy-about__li">
+							<div class="cy-about__li-ic"><i class="fas fa-bullseye"></i></div>
+							<div><h4>Specialised Expertise</h4><p>Deep technical knowledge across positive displacement, centrifugal and slurry applications.</p></div>
+						</div>
+						<div class="cy-about__li">
+							<div class="cy-about__li-ic"><i class="fas fa-handshake"></i></div>
+							<div><h4>End-to-End Partnership</h4><p>From product selection and supply through to repairs, refurbishment and on-site support.</p></div>
+						</div>
+						<div class="cy-about__li">
+							<div class="cy-about__li-ic"><i class="fas fa-shield-alt"></i></div>
+							<div><h4>Quality Guaranteed</h4><p>Genuine OEM components and certified workmanship on every job we undertake.</p></div>
+						</div>
+					</div>
+					<a href="about-1.html" class="cy-btn cy-btn--blue">Read Our Story <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============================================================
+	     SERVICES
+	============================================================ -->
+	<section class="cy-services">
+		<div class="container">
+			<div class="cy-services__head cy-reveal">
+				<div>
+					<div class="cy-eyebrow">What We Do</div>
+					<h2 class="cy-sec-title">Complete Industrial <span>Solutions</span></h2>
+				</div>
+				<p class="cy-sec-intro">Three core service pillars covering the full lifecycle of your rotating and fluid-handling equipment.</p>
+			</div>
+			<div class="cy-services__grid">
+				<div class="cy-scard cy-reveal">
+					<span class="cy-scard__num">01</span>
+					<div class="cy-scard__ic"><i class="flaticon-conveyor-1"></i></div>
+					<h3>Sales &amp; Supply</h3>
+					<p>An extensive stocked range of pumps, valves, seals and coatings from the world's leading manufacturers — matched precisely to your application.</p>
+					<a href="services-1.html" class="cy-scard__link">Browse Products <i class="fas fa-arrow-right"></i></a>
+				</div>
+				<div class="cy-scard cy-reveal">
+					<span class="cy-scard__num">02</span>
+					<div class="cy-scard__ic"><i class="flaticon-repair-tools"></i></div>
+					<h3>Repairs &amp; Refurbishment</h3>
+					<p>Full in-house repair capability — strip, inspect, recondition and test — returning your equipment to OEM specification and extending its service life.</p>
+					<a href="services-2.html" class="cy-scard__link">Book a Repair <i class="fas fa-arrow-right"></i></a>
+				</div>
+				<div class="cy-scard cy-reveal">
+					<span class="cy-scard__num">03</span>
+					<div class="cy-scard__ic"><i class="flaticon-robot-arm"></i></div>
+					<h3>CNC Manufacturing</h3>
+					<p>Precision CNC machining and custom engineering for bespoke components, obsolete parts and performance upgrades — built to exact tolerances.</p>
+					<a href="services-materials-engineering.html" class="cy-scard__link">Request a Quote <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============================================================
+	     STATS
+	============================================================ -->
+	<section class="cy-stats">
+		<div class="container">
+			<div class="cy-stats__grid">
+				<div class="cy-stat cy-reveal">
+					<div class="cy-stat__num"><span class="counter">25</span><small>+</small></div>
+					<div class="cy-stat__label">Years of Service</div>
+					<div class="cy-stat__sub">Trusted since 1998</div>
+				</div>
+				<div class="cy-stat cy-reveal">
+					<div class="cy-stat__num"><span class="counter">6</span></div>
+					<div class="cy-stat__label">Premium Brands</div>
+					<div class="cy-stat__sub">Globally recognised</div>
+				</div>
+				<div class="cy-stat cy-reveal">
+					<div class="cy-stat__num"><span class="counter">2500</span><small>+</small></div>
+					<div class="cy-stat__label">Units Serviced</div>
+					<div class="cy-stat__sub">Pumps &amp; valves</div>
+				</div>
+				<div class="cy-stat cy-reveal">
+					<div class="cy-stat__num"><span class="counter">100</span><small>%</small></div>
+					<div class="cy-stat__label">Quality Assured</div>
+					<div class="cy-stat__sub">OEM standard</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============================================================
+	     WHY US
+	============================================================ -->
+	<section class="cy-why">
+		<div class="container">
+			<div class="cy-why__grid">
+				<div class="cy-why__content cy-reveal">
+					<div class="cy-eyebrow">Why Choose Us</div>
+					<h2 class="cy-sec-title">The Cyclone <span>Advantage</span></h2>
+					<p class="cy-sec-intro">We don't just sell equipment — we keep your operation running. Here's what sets us apart.</p>
+					<div class="cy-why__features">
+						<div class="cy-why__feat">
+							<i class="fas fa-clock"></i>
+							<div><h4>Rapid Turnaround</h4><p>Minimised downtime with fast quoting, supply and repair cycles.</p></div>
+						</div>
+						<div class="cy-why__feat">
+							<i class="fas fa-user-cog"></i>
+							<div><h4>Application Engineering</h4><p>The right solution specified for your exact duty and media.</p></div>
+						</div>
+						<div class="cy-why__feat">
+							<i class="fas fa-certificate"></i>
+							<div><h4>Genuine OEM Parts</h4><p>Authentic components that protect performance and warranty.</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="cy-why__visual cy-reveal">
+					<i class="flaticon-gear"></i>
+					<div class="cy-why__quote">
+						<p>"Cyclone's team understood our slurry application immediately and had the right pump on site within days. Exceptional service."</p>
+						<span>Operations Manager</span>
+						<small>Leading Mining Group</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============================================================
+	     BRANDS
+	============================================================ -->
+	<section class="cy-brands">
+		<div class="container">
+			<div class="cy-brands__head cy-reveal">
+				<div class="cy-eyebrow" style="justify-content:center">Trusted Partners</div>
+				<h2 class="cy-sec-title">The Brands We <span>Represent</span></h2>
+			</div>
+			<div class="cy-brands__grid">
+				<div class="cy-chip cy-reveal"><img src="images/brands/kral.png" alt="KRAL"></div>
+				<div class="cy-chip cy-reveal"><img src="images/brands/bowie.png" alt="Bowie"></div>
+				<div class="cy-chip cy-reveal"><img src="images/brands/orbit-viga.png" alt="Orbit Viga"></div>
+				<div class="cy-chip cy-reveal"><img src="images/brands/mono-nov.png" alt="Mono NOV"></div>
+				<div class="cy-chip cy-reveal"><img src="images/brands/chesterton.png" alt="Chesterton"></div>
+				<div class="cy-chip cy-reveal"><img src="images/brands/emec.png" alt="EMEC"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============================================================
+	     MARKETS
+	============================================================ -->
+	<section class="cy-markets">
+		<div class="container">
+			<div class="text-center cy-reveal">
+				<div class="cy-eyebrow">Industries Served</div>
+				<h2 class="cy-sec-title">Markets We <span>Serve</span></h2>
+				<p class="cy-sec-intro">Purpose-matched fluid-handling solutions for the sectors that power South Africa.</p>
+			</div>
+			<div class="cy-markets__grid">
+				<div class="cy-mcard cy-reveal">
+					<i class="cy-mcard__ic flaticon-settings-1"></i>
+					<div class="cy-mcard__body"><h4>Mining</h4><p>Slurry pumps, knife gate valves &amp; abrasion-resistant solutions.</p></div>
+				</div>
+				<div class="cy-mcard cy-reveal">
+					<i class="cy-mcard__ic flaticon-conveyor"></i>
+					<div class="cy-mcard__body"><h4>Food &amp; Beverage</h4><p>Hygienic CIP pumps &amp; food-grade sealing systems.</p></div>
+				</div>
+				<div class="cy-mcard cy-reveal">
+					<i class="cy-mcard__ic flaticon-oil"></i>
+					<div class="cy-mcard__body"><h4>Water &amp; Waste</h4><p>Dosing, transfer &amp; multistage pumping for utilities.</p></div>
+				</div>
+				<div class="cy-mcard cy-reveal">
+					<i class="cy-mcard__ic flaticon-fuel-station"></i>
+					<div class="cy-mcard__body"><h4>Chemical</h4><p>Corrosion-resistant pumps, valves &amp; ARC coatings.</p></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============================================================
+	     CTA
+	============================================================ -->
+	<section class="cy-cta">
+		<div class="container">
+			<div class="cy-cta__box cy-reveal">
+				<div class="cy-cta__text">
+					<h2>Ready to Solve Your Fluid-Handling Challenge?</h2>
+					<p>Talk to our application engineers today and get the right solution specified for your operation.</p>
+				</div>
+				<div class="cy-cta__actions">
+					<a href="contact-1.html" class="cy-btn cy-btn--red">Get a Quote <i class="fas fa-arrow-right"></i></a>
+					<a href="tel:+27118215900" class="cy-btn cy-btn--white"><i class="fas fa-phone-alt"></i> +27 11 821 5900</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+<!-- Content END -->
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="cy-footer">
+	<div class="container">
+		<div class="cy-footer__grid">
+			<div>
+				<a href="cyclone-home.html" class="cy-logo">
+					<img src="images/cyclone-logo-white.png" alt="Cyclone Industries" class="cy-logo__img cy-logo__img--light">
+				</a>
+				<p class="cy-footer__about">South Africa's trusted partner for industrial pumps, valves, sealing systems and engineering services — delivering performance and reliability since 1998.</p>
+				<div class="cy-footer__social">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div>
+				<h5>Products</h5>
+				<ul class="cy-footer__links">
+					<li><a href="#">Centrifugal Pumps</a></li>
+					<li><a href="#">Slurry Pumps</a></li>
+					<li><a href="#">Knife Gate Valves</a></li>
+					<li><a href="#">Mechanical Seals</a></li>
+					<li><a href="#">ARC Coatings</a></li>
+				</ul>
+			</div>
+			<div>
+				<h5>Company</h5>
+				<ul class="cy-footer__links">
+					<li><a href="about-1.html">Our Story</a></li>
+					<li><a href="services-1.html">Our Services</a></li>
+					<li><a href="#">Markets We Serve</a></li>
+					<li><a href="#">Our Brands</a></li>
+					<li><a href="#">Downloads</a></li>
+				</ul>
+			</div>
+			<div>
+				<h5>Get In Touch</h5>
+				<ul class="cy-footer__contact">
+					<li><i class="fas fa-map-marker-alt"></i> Cyclone Industries,<br>South Africa</li>
+					<li><i class="fas fa-phone-alt"></i> <a href="tel:+27118215900" style="color:inherit">+27 11 821 5900</a></li>
+					<li><i class="fas fa-envelope"></i> <a href="mailto:reception@cyclonesa.co.za" style="color:inherit">reception@cyclonesa.co.za</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="cy-footer__bottom">
+			<span>© 2026 Cyclone Industries. All rights reserved.</span>
+			<span><a href="privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Use</a></span>
+		</div>
+	</div>
+</footer>
+
+<button class="scroltop fas fa-arrow-up" style="background:var(--cy-accent);"></button>
+
+</div>
+<!-- .page-wraper END -->
+
+<!-- ============================================================
+     TEMPLATE JS (real assets) — full stack the template's custom.js needs
+============================================================ -->
+<script src="js/jquery.min.js"></script>
+<script src="plugins/wow/wow.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+<script src="plugins/magnific-popup/magnific-popup.js"></script>
+<script src="plugins/counter/waypoints-min.js"></script>
+<script src="plugins/counter/counterup.min.js"></script>
+<script src="plugins/imagesloaded/imagesloaded.js"></script>
+<script src="plugins/masonry/masonry-3.1.4.js"></script>
+<script src="plugins/masonry/masonry.filter.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.js"></script>
+<script src="plugins/scroll/scrollbar.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/dz.carousel.min.js"></script>
+<script src="js/jquery.lazy.min.js"></script>
+
+<!-- Swiper (bundled in template) -->
+<script src="plugins/swiper/swiper-bundle.min.js"></script>
+
+<!-- Cyclone homepage scripts -->
+<script>
+/* Hero slider — guarded so a missing/slow Swiper never throws */
+(function(){
+	function initHero(){
+		if(typeof Swiper==='undefined'){
+			var s=document.querySelector('.cyHeroSwiper .swiper-slide');if(s)s.classList.add('swiper-slide-active');
+			var h=document.querySelector('.cyHeroSwiper');if(h)h.classList.add('swiper-initialized');return;
+		}
+		new Swiper('.cyHeroSwiper',{
+			loop:true,speed:800,
+			autoplay:{delay:6000,disableOnInteraction:false},
+			navigation:{nextEl:'.cyHeroNext',prevEl:'.cyHeroPrev'},
+			pagination:{el:'.cy-hero__pag',clickable:true,renderBullet:function(i,c){return '<span class="'+c+'">'+String(i+1).padStart(2,'0')+'</span>';}}
+		});
+	}
+	if(document.readyState!=='loading')initHero();else document.addEventListener('DOMContentLoaded',initHero);
+})();
+
+/* Reveal on scroll */
+(function(){
+	var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+	document.querySelectorAll('.cy-reveal').forEach(function(el){io.observe(el);});
+})();
+</script>
+</body>
+</html>
